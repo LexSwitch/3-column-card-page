@@ -1,0 +1,74 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+body{
+    font-size: 15px;
+}
+
+.orangeBg{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.darkCyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.veryDarkCyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: #fff;
+}
+
+.col-md-4{
+    padding: 3% 0% 10% 3%;
+}
+
+.car-image{
+    margin-bottom: 40px;
+}
+
+.car-title{
+    margin-bottom: 30px;
+}
+
+.car-text{
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 100;
+    line-height: 2rem;  
+    width: 80%;
+    
+    margin-bottom: 70px;
+    margin-right: 0;
+}
+
+.car-button{
+    border-radius: 30px;
+}
+
+.container{
+   margin: 7%;
+}
+
+#sedanBtn:hover{
+    color: hsl(31, 77%, 52%);
+}
+
+@media (max-width:560px) {
+    .col-md-4{
+        padding: 30px;
+        text-align: start;
+    }
+
+    .container{
+        margin: 0;
+        
+    }
+
+    .car-text{
+        width: 100%;
+    }
+}
